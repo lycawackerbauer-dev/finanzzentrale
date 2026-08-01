@@ -1,29 +1,112 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Finanzzentrale</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzzentrale</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial, Helvetica, sans-serif;
+            background:#f4f6f8;
+        }
+
+        header{
+            background:#1f2937;
+            color:white;
+            padding:20px;
+            text-align:center;
+            font-size:28px;
+            font-weight:bold;
+        }
+
+        main{
+            padding:20px;
+            padding-bottom:90px;
+        }
+
+        .karte{
+            background:white;
+            border-radius:15px;
+            padding:20px;
+            margin-bottom:15px;
+            box-shadow:0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        nav{
+            position:fixed;
+            bottom:0;
+            width:100%;
+            background:white;
+            display:flex;
+            justify-content:space-around;
+            padding:12px 0;
+            box-shadow:0 -2px 10px rgba(0,0,0,.15);
+        }
+
+        nav div{
+            text-align:center;
+            font-size:14px;
+        }
+
+        .emoji{
+            font-size:24px;
+        }
+
+    </style>
+
 </head>
 
 <body>
 
-<h1>💰 Finanzzentrale</h1>
+<header>
+💰 Finanzzentrale
+</header>
 
-<hr>
+<main>
 
+<div class="karte">
 <h2>💳 Konten</h2>
-<p>Hier erscheinen später deine Konten.</p>
+Hier erscheinen später deine Konten.
+</div>
 
-<hr>
-
+<div class="karte">
 <h2>💰 Einnahmen</h2>
-<p>Hier erscheinen später deine Einnahmen.</p>
+Hier erscheinen später deine Einnahmen.
+</div>
 
-<hr>
-
+<div class="karte">
 <h2>💸 Ausgaben</h2>
-<p>Hier erscheinen später deine Ausgaben.</p>
+Hier erscheinen später deine Ausgaben.
+</div>
+
+</main>
+
+<nav>
+
+<div>
+<div class="emoji">🏠</div>
+Home
+</div>
+
+<div>
+<div class="emoji">💳</div>
+Konten
+</div>
+
+<div>
+<div class="emoji">💰</div>
+Einnahmen
+</div>
+
+<div>
+<div class="emoji">💸</div>
+Ausgaben
+</div>
+
+</nav>
 
 </body>
 </html>
