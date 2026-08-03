@@ -1,1 +1,91 @@
+        :root{
 
+    /* ===== Farben ===== */
+
+    --primary: rgb(120, 0, 175);
+    --background: rgb(245,245,245);
+    --card: rgb(255,255,255);
+
+    --text: rgb(40,40,40);
+    --text-light: rgb(110,110,110);
+
+    --shadow: rgba(0,0,0,.10);
+            
+    /* ===== Abstände ===== */
+
+    --space-s: 8px;
+    --space-m: 16px;
+    --space-l: 24px;
+
+    /* ===== Rundungen ===== */
+
+    --radius: 15px;
+
+    /* ===== Schrift ===== */
+
+    --title: 28px;
+    --headline: 20px;
+    --text-size: 16px;
+}
+        body{
+            margin:0;
+            font-family:Arial, Helvetica, sans-serif;
+            background: var(--background);
+        }
+
+        header{
+            background: var(--primary);
+            color: var(--card);
+            padding:20px;
+            text-align:center;
+            font-size:28px;
+            font-weight:bold;
+        }
+
+        main{
+            padding:20px;
+            padding-bottom:90px;
+        }
+
+        .karte{
+            background: var(--card);
+            color: var(--text);
+            border-radius:15px;
+            padding:20px;
+            margin-bottom:15px;
+            box-shadow:0 3px 10px var(--shadow);
+        }
+        .button-primary{
+            width:100%;
+            padding:15px
+            border:none;
+            border-radius:var(--radius);
+            background:var(--primary);
+            color:white;
+            font-size:16px;
+            cursor:pointer;
+        }
+
+        .button-primary:hover{
+            opacity:0.9;
+        }
+
+        nav{
+            position:fixed;
+            bottom:0;
+            width:100%;
+            background:white;
+            display:flex;
+            justify-content:space-around;
+            padding:12px 0;
+            box-shadow:0 3px 10px var(--shadow);
+        }
+
+        nav div{
+            text-align:center;
+            font-size:14px;
+        }
+
+        .emoji{
+            font-size:24px;
+        }
