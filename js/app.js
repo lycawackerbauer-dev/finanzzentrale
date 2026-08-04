@@ -1,3 +1,7 @@
+const kontenBereich = document.getElementById("konten");
+
+console.log(kontenBereich);
+
 const konten = [
   {
     name: "Girokonto",
