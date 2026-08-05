@@ -30,7 +30,7 @@ const konten = [
   }
 ];
 
-const kontenBereich = document.getElementById("konten");
+const kontenBereich = document.getElementById("kontenListen");
 
 konten.forEach(function(konto) {
 
