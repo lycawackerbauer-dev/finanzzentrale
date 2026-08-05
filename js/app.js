@@ -32,6 +32,19 @@ const konten = [
 
 const kontenBereich = document.getElementById("konten");
 
-console.log(kontenBereich);
+konten.forEach(function(konto) {
+
+    const kontoKarte = document.createElement("div");
+
+    kontoKarte.className = "konto";
+
+    kontoKarte.innerHTML = `
+        <h3>${konto.name}</h3>
+        <p>${konto.kontostand} €</p>
+    `;
+
+    kontenBereich.appendChild(kontoKarte);
+
+});
   
 
